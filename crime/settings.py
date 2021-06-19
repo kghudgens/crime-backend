@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "crimewatch.apps.CrimewatchConfig",
+    "corsheaders",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
