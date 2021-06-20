@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "rest_framework",
     # Application that allows the user to pick a state
     "localflavor",
+    "us",
 ]
 
 MIDDLEWARE = [
