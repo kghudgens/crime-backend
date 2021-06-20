@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     # creates the rest api
     "rest_framework",
     # Application that allows the user to pick a state
-    "localflavors",
+    "localflavor",
 ]
 
 MIDDLEWARE = [
