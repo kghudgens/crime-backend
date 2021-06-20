@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "crimewatch.apps.CrimewatchConfig",
+    # allows resources to be loaded from django
     "corsheaders",
+    # creates the rest api
     "rest_framework",
+    # Application that allows the user to pick a state
+    "localflavors",
 ]
 
 MIDDLEWARE = [
