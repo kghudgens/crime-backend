@@ -42,8 +42,7 @@ INSTALLED_APPS = [
     "corsheaders",
     # creates the rest api
     "rest_framework",
-    # Application that allows the user to pick a state
-    "localflavor",
+    # module that allows the user to pick a state
     "us",
 ]
 
