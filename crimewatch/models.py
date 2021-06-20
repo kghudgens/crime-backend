@@ -11,7 +11,7 @@ state_choices = []
 for v in us.states.STATES:
     state_tuple = ()
     state = us.states.lookup(str(v))
-    state_tuple += (state.abbr, v)
+    state_tuple += (state.abbr, str(v))
     state_choices.append(state_tuple)
 
 
