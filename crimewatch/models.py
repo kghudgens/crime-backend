@@ -2,8 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 import us
 
-import us
-
 # print(us.states.lookup("mary"))
 
 state_choices = []
