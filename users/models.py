@@ -13,8 +13,8 @@ for v in us.states.STATES:
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    occupation = models.CharField(max_length=50)
-    age = models.IntegerField()
+    occupation = models.CharField(max_length=50, blank=True)
+    age = models.IntegerField(blank=True)
     location = models.CharField(max_length=2, choices=state_choices)
 
     def __str__(self):
