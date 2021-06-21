@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "crimewatch.apps.CrimewatchConfig",
+    "users.apps.UsersConfig",
     # allows resources to be loaded from django
     "corsheaders",
     # creates the rest api
