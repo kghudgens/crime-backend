@@ -18,4 +18,4 @@ class Profile(models.Model):
     location = models.CharField(max_length=2, choices=state_choices)
 
     def __str__(self):
-        return self.user
+        return self.user.first_name
